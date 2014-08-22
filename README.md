@@ -17,7 +17,7 @@ run_analysis() is used to read data from working directory to do processes below
   - Appropriately labels the data set with descriptive variable names. 
   - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
   
-   It's assumed the data files needed are ready in the working directory. Otherwise, getdata() should be called first to get it ready.
+It's assumed the data files needed are ready in the working directory. Otherwise, getdata() should be called first to get it ready.
 
 run_analysis() does its job through serveral steps:  
 * First it reads feature names from "features.txt" and activity names from "activity_labels.txt". These names will be used to make the data more readable as described as step 3 and 4 above.  
