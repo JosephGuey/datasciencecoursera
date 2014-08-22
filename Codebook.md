@@ -3,6 +3,9 @@
 The dataset used in this project represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the data is available at the site where the data was obtained:   
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
   
+The dataset can be get from :   
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+  
 The dataset includes the following files:
 * 'README.txt'
 * 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -27,7 +30,7 @@ There are 68 variables in the tiny data.
 	* WALKING
 	* WALKING_UPSTAIRS
 	* WALKING_DOWNSTAIRS
-	* ITTING
+	* SITTING
 	* STANDING
 	* LAYING
 * other variables represent average of the mean(with 'mean' in their names) or standard deviation(with 'std' in their names) for each measurement.
